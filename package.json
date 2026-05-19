@@ -19,7 +19,7 @@
     "fixtures:full": "tsx scripts/seed/generate-full-fixtures.ts"
   },
   "engines": {
-    "node": ">=20.11.0",
+    "node": "20.x",
     "npm": ">=10.0.0"
   },
   "devDependencies": {
