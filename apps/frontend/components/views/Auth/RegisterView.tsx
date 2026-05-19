@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FiUserPlus } from "react-icons/fi";
-import { supabase } from "../../../lib/supabase";
+import { getSupabase } from "../../../lib/supabase";
 import { Button } from "../../ui/Button";
 import { Field, inputClass } from "../../ui/ViewPrimitives";
 import { AuthShell } from "./AuthShell";
@@ -19,6 +19,7 @@ export const RegisterView = () => {
         className="grid gap-4"
         onSubmit={async (event) => {
           event.preventDefault();
+          const supabase = getSupabase();
           const { error } = await supabase.auth.signUp({ email, password });
           setMessage(error ? error.message : "Compte cree. Verifiez votre email si la confirmation est activee.");
         }}
@@ -40,4 +41,3 @@ export const RegisterView = () => {
     </AuthShell>
   );
 };
-

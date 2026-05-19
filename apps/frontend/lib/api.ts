@@ -1,8 +1,9 @@
-import { supabase } from "./supabase";
+import { getSupabase } from "./supabase";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? process.env.VITE_API_BASE_URL ?? "/api";
 
 async function authHeaders(): Promise<HeadersInit> {
+  const supabase = getSupabase();
   const { data } = await supabase.auth.getSession();
   const token = data.session?.access_token;
   return {
@@ -38,4 +39,3 @@ export function exportCsvUrl(table: string, siteId?: string): string {
   if (siteId) params.set("siteId", siteId);
   return `${API_BASE_URL}/export/csv?${params.toString()}`;
 }
-

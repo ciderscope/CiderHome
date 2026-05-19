@@ -18,7 +18,7 @@ import {
   demoUser,
   demoWorkOrders
 } from "../lib/demoData";
-import { supabase } from "../lib/supabase";
+import { getSupabase } from "../lib/supabase";
 
 export const APP_MODES = [
   "dashboard",
@@ -448,6 +448,7 @@ export const useCuverie = () => {
   );
 
   const signOut = useCallback(async () => {
+    const supabase = getSupabase();
     await supabase.auth.signOut();
     setProfile(null);
   }, []);
