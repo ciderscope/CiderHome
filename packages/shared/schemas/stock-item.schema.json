@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/stock-item.schema.json",
+  "title": "StockItem",
+  "type": "object",
+  "required": ["id", "siteId", "name", "category", "batchNumber", "quantity", "unit", "minQuantity", "location", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "name": { "type": "string", "minLength": 1 },
+    "category": { "enum": ["levure", "enzyme", "sulfite", "nutriment", "nettoyant", "bouchage", "autre"] },
+    "supplier": { "type": "string" },
+    "batchNumber": { "type": "string", "minLength": 1 },
+    "quantity": { "type": "number", "minimum": 0 },
+    "unit": { "enum": ["kg", "g", "l", "ml", "unite"] },
+    "minQuantity": { "type": "number", "minimum": 0 },
+    "expiryDate": { "type": "string" },
+    "location": { "type": "string", "minLength": 1 },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

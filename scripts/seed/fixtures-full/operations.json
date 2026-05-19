@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "40000001-0000-4000-8000-000000000001",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "submitted",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000001-0000-4000-8000-000000000001",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-02T08:00:00.000Z",
+    "startedAt": "2026-05-02T09:00:00.000Z",
+    "volumeDeltaLiters": 412,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 1",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000002-0000-4000-8000-000000000002",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "validated",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000002-0000-4000-8000-000000000002",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-03T08:00:00.000Z",
+    "startedAt": "2026-05-03T09:00:00.000Z",
+    "volumeDeltaLiters": 424,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 2",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000003-0000-4000-8000-000000000003",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "executed",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000003-0000-4000-8000-000000000003",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-04T08:00:00.000Z",
+    "startedAt": "2026-05-04T09:00:00.000Z",
+    "volumeDeltaLiters": 436,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 3",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000004-0000-4000-8000-000000000004",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "draft",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000004-0000-4000-8000-000000000004",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-05T08:00:00.000Z",
+    "startedAt": "2026-05-05T09:00:00.000Z",
+    "volumeDeltaLiters": 448,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 4",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000005-0000-4000-8000-000000000005",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "submitted",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000005-0000-4000-8000-000000000005",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-06T08:00:00.000Z",
+    "startedAt": "2026-05-06T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 5",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000006-0000-4000-8000-000000000006",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "validated",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000006-0000-4000-8000-000000000006",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-07T08:00:00.000Z",
+    "startedAt": "2026-05-07T09:00:00.000Z",
+    "volumeDeltaLiters": 472,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 6",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000007-0000-4000-8000-000000000007",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "executed",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000007-0000-4000-8000-000000000007",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-08T08:00:00.000Z",
+    "startedAt": "2026-05-08T09:00:00.000Z",
+    "volumeDeltaLiters": 484,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 7",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000008-0000-4000-8000-000000000008",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "draft",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000008-0000-4000-8000-000000000008",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-09T08:00:00.000Z",
+    "startedAt": "2026-05-09T09:00:00.000Z",
+    "volumeDeltaLiters": 496,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 8",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000009-0000-4000-8000-000000000009",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "submitted",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000009-0000-4000-8000-000000000009",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-10T08:00:00.000Z",
+    "startedAt": "2026-05-10T09:00:00.000Z",
+    "volumeDeltaLiters": 508,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 9",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000010-0000-4000-8000-000000000010",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "validated",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000010-0000-4000-8000-000000000010",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-11T08:00:00.000Z",
+    "startedAt": "2026-05-11T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 10",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000011-0000-4000-8000-000000000011",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "executed",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000011-0000-4000-8000-000000000011",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-12T08:00:00.000Z",
+    "startedAt": "2026-05-12T09:00:00.000Z",
+    "volumeDeltaLiters": 532,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 11",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000012-0000-4000-8000-000000000012",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "draft",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000012-0000-4000-8000-000000000012",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-13T08:00:00.000Z",
+    "startedAt": "2026-05-13T09:00:00.000Z",
+    "volumeDeltaLiters": 544,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 12",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000013-0000-4000-8000-000000000013",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "submitted",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000013-0000-4000-8000-000000000013",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-14T08:00:00.000Z",
+    "startedAt": "2026-05-14T09:00:00.000Z",
+    "volumeDeltaLiters": 556,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 13",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000014-0000-4000-8000-000000000014",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "validated",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000014-0000-4000-8000-000000000014",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-15T08:00:00.000Z",
+    "startedAt": "2026-05-15T09:00:00.000Z",
+    "volumeDeltaLiters": 568,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 14",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000015-0000-4000-8000-000000000015",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "executed",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000015-0000-4000-8000-000000000015",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-16T08:00:00.000Z",
+    "startedAt": "2026-05-16T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 15",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000016-0000-4000-8000-000000000016",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "draft",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000016-0000-4000-8000-000000000016",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-17T08:00:00.000Z",
+    "startedAt": "2026-05-17T09:00:00.000Z",
+    "volumeDeltaLiters": 592,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 16",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000017-0000-4000-8000-000000000017",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "submitted",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000017-0000-4000-8000-000000000017",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-18T08:00:00.000Z",
+    "startedAt": "2026-05-18T09:00:00.000Z",
+    "volumeDeltaLiters": 604,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 17",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000018-0000-4000-8000-000000000018",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "validated",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000018-0000-4000-8000-000000000018",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-01T08:00:00.000Z",
+    "startedAt": "2026-05-01T09:00:00.000Z",
+    "volumeDeltaLiters": 616,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 18",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000019-0000-4000-8000-000000000019",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "executed",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000019-0000-4000-8000-000000000019",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-02T08:00:00.000Z",
+    "startedAt": "2026-05-02T09:00:00.000Z",
+    "volumeDeltaLiters": 628,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 19",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000020-0000-4000-8000-000000000020",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "draft",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000020-0000-4000-8000-000000000020",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-03T08:00:00.000Z",
+    "startedAt": "2026-05-03T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 20",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000021-0000-4000-8000-000000000021",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "submitted",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000021-0000-4000-8000-000000000021",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-04T08:00:00.000Z",
+    "startedAt": "2026-05-04T09:00:00.000Z",
+    "volumeDeltaLiters": 652,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 21",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000022-0000-4000-8000-000000000022",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "validated",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000022-0000-4000-8000-000000000022",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-05T08:00:00.000Z",
+    "startedAt": "2026-05-05T09:00:00.000Z",
+    "volumeDeltaLiters": 664,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 22",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000023-0000-4000-8000-000000000023",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "executed",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000023-0000-4000-8000-000000000023",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-06T08:00:00.000Z",
+    "startedAt": "2026-05-06T09:00:00.000Z",
+    "volumeDeltaLiters": 676,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 23",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000024-0000-4000-8000-000000000024",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "draft",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000024-0000-4000-8000-000000000024",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-07T08:00:00.000Z",
+    "startedAt": "2026-05-07T09:00:00.000Z",
+    "volumeDeltaLiters": 688,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 24",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000025-0000-4000-8000-000000000025",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "submitted",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000025-0000-4000-8000-000000000025",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-08T08:00:00.000Z",
+    "startedAt": "2026-05-08T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 25",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000026-0000-4000-8000-000000000026",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "validated",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000026-0000-4000-8000-000000000026",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-09T08:00:00.000Z",
+    "startedAt": "2026-05-09T09:00:00.000Z",
+    "volumeDeltaLiters": 712,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 26",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000027-0000-4000-8000-000000000027",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "executed",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000027-0000-4000-8000-000000000027",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-10T08:00:00.000Z",
+    "startedAt": "2026-05-10T09:00:00.000Z",
+    "volumeDeltaLiters": 724,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 27",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000028-0000-4000-8000-000000000028",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "draft",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000028-0000-4000-8000-000000000028",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-11T08:00:00.000Z",
+    "startedAt": "2026-05-11T09:00:00.000Z",
+    "volumeDeltaLiters": 736,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 28",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000029-0000-4000-8000-000000000029",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "submitted",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000029-0000-4000-8000-000000000029",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-12T08:00:00.000Z",
+    "startedAt": "2026-05-12T09:00:00.000Z",
+    "volumeDeltaLiters": 748,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 29",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000030-0000-4000-8000-000000000030",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "validated",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000030-0000-4000-8000-000000000030",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-13T08:00:00.000Z",
+    "startedAt": "2026-05-13T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 30",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000031-0000-4000-8000-000000000031",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "executed",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000031-0000-4000-8000-000000000031",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-14T08:00:00.000Z",
+    "startedAt": "2026-05-14T09:00:00.000Z",
+    "volumeDeltaLiters": 772,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 31",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000032-0000-4000-8000-000000000032",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "draft",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000032-0000-4000-8000-000000000032",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-15T08:00:00.000Z",
+    "startedAt": "2026-05-15T09:00:00.000Z",
+    "volumeDeltaLiters": 784,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 32",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000033-0000-4000-8000-000000000033",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "soutirage",
+    "status": "submitted",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000033-0000-4000-8000-000000000033",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-16T08:00:00.000Z",
+    "startedAt": "2026-05-16T09:00:00.000Z",
+    "volumeDeltaLiters": 796,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 33",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000034-0000-4000-8000-000000000034",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "nettoyage",
+    "status": "validated",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000034-0000-4000-8000-000000000034",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-17T08:00:00.000Z",
+    "startedAt": "2026-05-17T09:00:00.000Z",
+    "volumeDeltaLiters": 808,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 34",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000035-0000-4000-8000-000000000035",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "reception",
+    "status": "executed",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000035-0000-4000-8000-000000000035",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-18T08:00:00.000Z",
+    "startedAt": "2026-05-18T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 35",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000036-0000-4000-8000-000000000036",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "remplissage",
+    "status": "draft",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000036-0000-4000-8000-000000000036",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-01T08:00:00.000Z",
+    "startedAt": "2026-05-01T09:00:00.000Z",
+    "volumeDeltaLiters": 832,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 36",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000037-0000-4000-8000-000000000037",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "prise_densite_temperature",
+    "status": "submitted",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000037-0000-4000-8000-000000000037",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-02T08:00:00.000Z",
+    "startedAt": "2026-05-02T09:00:00.000Z",
+    "volumeDeltaLiters": 844,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 37",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000038-0000-4000-8000-000000000038",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "soutirage",
+    "status": "validated",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000038-0000-4000-8000-000000000038",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-03T08:00:00.000Z",
+    "startedAt": "2026-05-03T09:00:00.000Z",
+    "volumeDeltaLiters": 856,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 38",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000039-0000-4000-8000-000000000039",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "nettoyage",
+    "status": "executed",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000039-0000-4000-8000-000000000039",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-04T08:00:00.000Z",
+    "startedAt": "2026-05-04T09:00:00.000Z",
+    "volumeDeltaLiters": 868,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 39",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000040-0000-4000-8000-000000000040",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "reception",
+    "status": "draft",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000040-0000-4000-8000-000000000040",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-05T08:00:00.000Z",
+    "startedAt": "2026-05-05T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 40",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000041-0000-4000-8000-000000000041",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "submitted",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000001-0000-4000-8000-000000000001",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-06T08:00:00.000Z",
+    "startedAt": "2026-05-06T09:00:00.000Z",
+    "volumeDeltaLiters": 892,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 41",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000042-0000-4000-8000-000000000042",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "validated",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000002-0000-4000-8000-000000000002",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-07T08:00:00.000Z",
+    "startedAt": "2026-05-07T09:00:00.000Z",
+    "volumeDeltaLiters": 904,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 42",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000043-0000-4000-8000-000000000043",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "executed",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000003-0000-4000-8000-000000000003",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-08T08:00:00.000Z",
+    "startedAt": "2026-05-08T09:00:00.000Z",
+    "volumeDeltaLiters": 916,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 43",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000044-0000-4000-8000-000000000044",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "draft",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000004-0000-4000-8000-000000000004",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-09T08:00:00.000Z",
+    "startedAt": "2026-05-09T09:00:00.000Z",
+    "volumeDeltaLiters": 928,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 44",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000045-0000-4000-8000-000000000045",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "submitted",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000005-0000-4000-8000-000000000005",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-10T08:00:00.000Z",
+    "startedAt": "2026-05-10T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 45",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000046-0000-4000-8000-000000000046",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "remplissage",
+    "status": "validated",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000006-0000-4000-8000-000000000006",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-11T08:00:00.000Z",
+    "startedAt": "2026-05-11T09:00:00.000Z",
+    "volumeDeltaLiters": 952,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 46",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000047-0000-4000-8000-000000000047",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "prise_densite_temperature",
+    "status": "executed",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000007-0000-4000-8000-000000000007",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-12T08:00:00.000Z",
+    "startedAt": "2026-05-12T09:00:00.000Z",
+    "volumeDeltaLiters": 964,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 47",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000048-0000-4000-8000-000000000048",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "soutirage",
+    "status": "draft",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000008-0000-4000-8000-000000000008",
+    "operatorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "assigneeId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "plannedAt": "2026-05-13T08:00:00.000Z",
+    "startedAt": "2026-05-13T09:00:00.000Z",
+    "volumeDeltaLiters": 976,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 48",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000049-0000-4000-8000-000000000049",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "nettoyage",
+    "status": "submitted",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000009-0000-4000-8000-000000000009",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-14T08:00:00.000Z",
+    "startedAt": "2026-05-14T09:00:00.000Z",
+    "volumeDeltaLiters": 988,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": false
+      }
+    ],
+    "notes": "Operation demo 49",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "40000050-0000-4000-8000-000000000050",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "reception",
+    "status": "validated",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000010-0000-4000-8000-000000000010",
+    "operatorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "assigneeId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "plannedAt": "2026-05-15T08:00:00.000Z",
+    "startedAt": "2026-05-15T09:00:00.000Z",
+    "volumeDeltaLiters": 0,
+    "checklist": [
+      {
+        "id": "safety",
+        "label": "EPI controles",
+        "required": true,
+        "checked": true
+      },
+      {
+        "id": "measure",
+        "label": "Mesure saisie",
+        "required": true,
+        "checked": true
+      }
+    ],
+    "notes": "Operation demo 50",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/lot.schema.json",
+  "title": "Lot",
+  "type": "object",
+  "required": ["id", "siteId", "code", "productType", "harvestYear", "status", "volumeLiters", "origin", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 2 },
+    "productType": { "enum": ["cidre", "jus", "poire", "vin", "vinaigre", "autre"] },
+    "variety": { "type": "string" },
+    "harvestYear": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "status": { "enum": ["planned", "in_progress", "maturing", "ready", "blocked", "closed"] },
+    "volumeLiters": { "type": "number", "minimum": 0 },
+    "origin": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

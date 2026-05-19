@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/bottling-batch.schema.json",
+  "title": "BottlingBatch",
+  "type": "object",
+  "required": ["id", "siteId", "code", "lotId", "volumeLiters", "bottleCount", "status", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 2 },
+    "lotId": { "type": "string", "format": "uuid" },
+    "volumeLiters": { "type": "number", "minimum": 0 },
+    "bottleCount": { "type": "integer", "minimum": 0 },
+    "bottledAt": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["planned", "in_progress", "completed", "blocked"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "90000001-0000-4000-8000-000000000001",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "code": "OT-2026-001",
+    "sourceTankId": "30000001-0000-4000-8000-000000000001",
+    "targetTankId": "30000006-0000-4000-8000-000000000006",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "requestedVolumeLiters": 500,
+    "status": "pending_approval",
+    "requestedBy": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "requestedAt": "2026-05-18T09:00:00.000Z",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "90000002-0000-4000-8000-000000000002",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "code": "OT-2026-002",
+    "sourceTankId": "30000002-0000-4000-8000-000000000002",
+    "targetTankId": "30000007-0000-4000-8000-000000000007",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "requestedVolumeLiters": 600,
+    "status": "pending_approval",
+    "requestedBy": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "requestedAt": "2026-05-18T09:00:00.000Z",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "90000003-0000-4000-8000-000000000003",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "code": "OT-2026-003",
+    "sourceTankId": "30000003-0000-4000-8000-000000000003",
+    "targetTankId": "30000008-0000-4000-8000-000000000008",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "requestedVolumeLiters": 700,
+    "status": "pending_approval",
+    "requestedBy": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "requestedAt": "2026-05-18T09:00:00.000Z",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "90000004-0000-4000-8000-000000000004",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "code": "OT-2026-004",
+    "sourceTankId": "30000004-0000-4000-8000-000000000004",
+    "targetTankId": "30000009-0000-4000-8000-000000000009",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "requestedVolumeLiters": 800,
+    "status": "pending_approval",
+    "requestedBy": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "requestedAt": "2026-05-18T09:00:00.000Z",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "90000005-0000-4000-8000-000000000005",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "code": "OT-2026-005",
+    "sourceTankId": "30000005-0000-4000-8000-000000000005",
+    "targetTankId": "30000010-0000-4000-8000-000000000010",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "requestedVolumeLiters": 900,
+    "status": "pending_approval",
+    "requestedBy": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "requestedAt": "2026-05-18T09:00:00.000Z",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

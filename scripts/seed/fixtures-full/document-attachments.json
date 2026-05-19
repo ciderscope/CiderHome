@@ -1,0 +1,67 @@
+[
+  {
+    "id": "70000001-0000-4000-8000-000000000001",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "b0000001-0000-4000-8000-000000000001",
+    "filename": "REC-2026-001.pdf",
+    "storagePath": "receipts/2026/REC-2026-001.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 120000,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "70000002-0000-4000-8000-000000000002",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "b0000002-0000-4000-8000-000000000002",
+    "filename": "REC-2026-002.pdf",
+    "storagePath": "receipts/2026/REC-2026-002.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 120001,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "70000003-0000-4000-8000-000000000003",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "b0000003-0000-4000-8000-000000000003",
+    "filename": "REC-2026-003.pdf",
+    "storagePath": "receipts/2026/REC-2026-003.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 120002,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "70000004-0000-4000-8000-000000000004",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "b0000004-0000-4000-8000-000000000004",
+    "filename": "REC-2026-004.pdf",
+    "storagePath": "receipts/2026/REC-2026-004.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 120003,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "70000005-0000-4000-8000-000000000005",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "b0000005-0000-4000-8000-000000000005",
+    "filename": "REC-2026-005.pdf",
+    "storagePath": "receipts/2026/REC-2026-005.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 120004,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/harvest-receipt.schema.json",
+  "title": "HarvestReceipt",
+  "type": "object",
+  "required": ["id", "siteId", "receiptNumber", "parcel", "grapeVariety", "weightKg", "maturity", "receivedAt", "documentIds", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "lotId": { "type": "string", "format": "uuid" },
+    "receiptNumber": { "type": "string", "minLength": 2 },
+    "parcel": { "type": "string", "minLength": 1 },
+    "grapeVariety": { "type": "string", "minLength": 1 },
+    "supplier": { "type": "string" },
+    "weightKg": { "type": "number", "exclusiveMinimum": 0 },
+    "maturity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sugarBrix": { "type": "number" },
+        "ph": { "type": "number" },
+        "acidityGl": { "type": "number" },
+        "density": { "type": "number" },
+        "sanitaryState": { "enum": ["excellent", "good", "watch", "blocked"] }
+      }
+    },
+    "receivedAt": { "type": "string", "format": "date-time" },
+    "assignedTankId": { "type": "string", "format": "uuid" },
+    "documentIds": { "type": "array", "items": { "type": "string", "format": "uuid" } },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

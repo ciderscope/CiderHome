@@ -1,0 +1,96 @@
+/* globals.css - Gestion Cuverie Cidricole. Meme logique que CiderScope: tokens CSS d'abord, Tailwind ensuite. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    --primary: #557f3f;
+    --primary-2: #426533;
+    --accent: #bd7216;
+    --accent2: #a97d25;
+    --highlight: #f2e7c7;
+    --sand: #e6d095;
+    --link: #3c7f8f;
+    --ink: #24231f;
+    --ink2: #363430;
+    --paper: #ffffff;
+    --paper2: #fafaf7;
+    --paper3: #efeee8;
+    --bg: #f7f6f1;
+    --mid: #625f56;
+    --mid2: #9f9a8d;
+    --ok: #557f3f;
+    --warn: #bd7216;
+    --danger: #b3261e;
+    --border: rgba(36, 35, 31, 0.08);
+    --border-strong: rgba(36, 35, 31, 0.16);
+    --radius: 8px;
+    --radius-lg: 10px;
+    --shadow: 0 1px 3px rgba(36, 35, 31, 0.06), 0 1px 2px rgba(36, 35, 31, 0.04);
+    --shadow-md: 0 8px 24px rgba(36, 35, 31, 0.08);
+    --topbar-bg: rgba(255, 255, 255, 0.94);
+    --yard-grid: rgba(85, 127, 63, 0.12);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  html,
+  body {
+    min-height: 100vh;
+    overflow-x: clip;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100vw;
+    background: var(--paper2);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: inherit;
+    letter-spacing: 0;
+  }
+
+  button,
+  [role="button"] {
+    touch-action: manipulation;
+  }
+
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

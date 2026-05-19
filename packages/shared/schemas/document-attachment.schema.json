@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/document-attachment.schema.json",
+  "title": "DocumentAttachment",
+  "type": "object",
+  "required": ["id", "siteId", "entityType", "entityId", "filename", "storagePath", "mimeType", "uploadedBy", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "entityType": { "enum": ["harvest_receipt", "operation", "lot", "tank", "analysis", "report"] },
+    "entityId": { "type": "string" },
+    "filename": { "type": "string", "minLength": 1 },
+    "storagePath": { "type": "string", "minLength": 1 },
+    "mimeType": { "type": "string", "minLength": 3 },
+    "sizeBytes": { "type": "number", "minimum": 0 },
+    "uploadedBy": { "type": "string", "format": "uuid" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

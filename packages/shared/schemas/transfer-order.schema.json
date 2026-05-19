@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/transfer-order.schema.json",
+  "title": "TransferOrder",
+  "type": "object",
+  "required": [
+    "id",
+    "siteId",
+    "code",
+    "sourceTankId",
+    "targetTankId",
+    "lotId",
+    "requestedVolumeLiters",
+    "status",
+    "requestedBy",
+    "requestedAt",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 2 },
+    "sourceTankId": { "type": "string", "format": "uuid" },
+    "targetTankId": { "type": "string", "format": "uuid" },
+    "lotId": { "type": "string", "format": "uuid" },
+    "subLotId": { "type": "string", "format": "uuid" },
+    "requestedVolumeLiters": { "type": "number", "exclusiveMinimum": 0 },
+    "status": { "enum": ["draft", "pending_approval", "approved", "executing", "completed", "cancelled", "rejected"] },
+    "requestedBy": { "type": "string", "format": "uuid" },
+    "approvedBy": { "type": "string", "format": "uuid" },
+    "executedBy": { "type": "string", "format": "uuid" },
+    "requestedAt": { "type": "string", "format": "date-time" },
+    "approvedAt": { "type": "string", "format": "date-time" },
+    "executedAt": { "type": "string", "format": "date-time" },
+    "notes": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}
+

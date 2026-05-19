@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/stock-movement.schema.json",
+  "title": "StockMovement",
+  "type": "object",
+  "required": ["id", "siteId", "stockItemId", "direction", "quantity", "unit", "reason", "movedAt", "actorId", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "stockItemId": { "type": "string", "format": "uuid" },
+    "operationId": { "type": "string", "format": "uuid" },
+    "lotId": { "type": "string", "format": "uuid" },
+    "tankId": { "type": "string", "format": "uuid" },
+    "direction": { "enum": ["in", "out", "adjustment"] },
+    "quantity": { "type": "number", "exclusiveMinimum": 0 },
+    "unit": { "enum": ["kg", "g", "l", "ml", "unite"] },
+    "reason": { "type": "string", "minLength": 1 },
+    "movedAt": { "type": "string", "format": "date-time" },
+    "actorId": { "type": "string", "format": "uuid" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

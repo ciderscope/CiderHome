@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/work-order.schema.json",
+  "title": "WorkOrder",
+  "type": "object",
+  "required": ["id", "siteId", "code", "title", "status", "checklist", "requiredFields", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "operationId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 2 },
+    "title": { "type": "string", "minLength": 2 },
+    "status": { "enum": ["draft", "assigned", "in_progress", "submitted", "validated", "rejected", "done"] },
+    "assigneeId": { "type": "string", "format": "uuid" },
+    "validatorId": { "type": "string", "format": "uuid" },
+    "dueAt": { "type": "string", "format": "date-time" },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "required", "checked"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "required": { "type": "boolean" },
+          "checked": { "type": "boolean" }
+        }
+      }
+    },
+    "requiredFields": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

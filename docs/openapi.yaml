@@ -1,0 +1,145 @@
+openapi: 3.0.3
+info:
+  title: Gestion Cuverie API
+  version: 0.2.0
+  description: API REST Vercel Functions securisee par JWT Supabase.
+servers:
+  - url: https://{vercelProject}.vercel.app
+    variables:
+      vercelProject:
+        default: gestion-cuverie
+paths:
+  /api/tanks:
+    get:
+      summary: Liste les cuves du site courant.
+      parameters:
+        - $ref: "#/components/parameters/siteId"
+      responses:
+        "200":
+          description: Liste des cuves.
+    post:
+      summary: Cree une cuve.
+      responses:
+        "201":
+          description: Cuve creee.
+  /api/harvest-receipts:
+    get:
+      summary: Liste les receptions vendange.
+      parameters:
+        - $ref: "#/components/parameters/siteId"
+      responses:
+        "200":
+          description: Liste des receptions.
+    post:
+      summary: Enregistre une reception et son affectation cuve.
+      responses:
+        "201":
+          description: Reception creee.
+  /api/operations/{id}/submit:
+    post:
+      summary: Soumet une operation saisie par un operateur.
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Operation soumise avec audit.
+  /api/operations/{id}/validate:
+    post:
+      summary: Valide une operation par un responsable.
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Operation validee avec audit.
+  /api/operations/{id}/execute:
+    post:
+      summary: Execute une operation validee et genere la tracabilite.
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Operation executee.
+  /api/iot/events:
+    post:
+      summary: Ingestion generique d'evenements capteurs HTTP.
+      responses:
+        "202":
+          description: Lecture capteur acceptee.
+  /api/stock-items:
+    get:
+      summary: Liste les stocks oenologiques.
+      parameters:
+        - $ref: "#/components/parameters/siteId"
+      responses:
+        "200":
+          description: Liste des stocks.
+    post:
+      summary: Cree un item de stock.
+      responses:
+        "201":
+          description: Stock cree.
+  /api/stock-movements:
+    post:
+      summary: Enregistre un mouvement de stock lie a une operation.
+      responses:
+        "201":
+          description: Mouvement cree.
+  /api/reports/traceability:
+    get:
+      summary: Produit le graphe de tracabilite ascendante ou descendante.
+      parameters:
+        - $ref: "#/components/parameters/siteId"
+        - name: entityType
+          in: query
+          schema:
+            type: string
+            default: lot
+        - name: entityId
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: direction
+          in: query
+          schema:
+            type: string
+            enum: [upstream, downstream]
+            default: downstream
+      responses:
+        "200":
+          description: Graphe de tracabilite.
+  /api/export/csv:
+    get:
+      summary: Exporte une table autorisee en CSV a la demande.
+      parameters:
+        - $ref: "#/components/parameters/siteId"
+        - name: table
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Fichier CSV.
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  parameters:
+    siteId:
+      name: siteId
+      in: query
+      required: false
+      schema:
+        type: string
+        format: uuid
+    id:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: string
+security:
+  - bearerAuth: []

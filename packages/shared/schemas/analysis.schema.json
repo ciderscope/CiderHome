@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/analysis.schema.json",
+  "title": "Analysis",
+  "type": "object",
+  "required": ["id", "siteId", "sampleCode", "measuredAt", "analystId", "results", "compliant", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "lotId": { "type": "string", "format": "uuid" },
+    "subLotId": { "type": "string", "format": "uuid" },
+    "tankId": { "type": "string", "format": "uuid" },
+    "sampleCode": { "type": "string", "minLength": 2 },
+    "measuredAt": { "type": "string", "format": "date-time" },
+    "analystId": { "type": "string", "format": "uuid" },
+    "results": { "type": "object", "additionalProperties": { "type": ["number", "string", "boolean"] } },
+    "compliant": { "type": "boolean" },
+    "comments": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}
+

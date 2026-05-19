@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/traceability-event.schema.json",
+  "title": "TraceabilityEvent",
+  "type": "object",
+  "required": ["id", "siteId", "type", "occurredAt", "actorId", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "siteId": { "type": "string", "format": "uuid" },
+    "type": {
+      "enum": ["lot_created", "sub_lot_created", "operation_recorded", "input_applied", "analysis_recorded", "transfer_executed", "manual_adjustment"]
+    },
+    "lotId": { "type": "string", "format": "uuid" },
+    "subLotId": { "type": "string", "format": "uuid" },
+    "sourceEntityType": { "type": "string" },
+    "sourceEntityId": { "type": "string" },
+    "targetEntityType": { "type": "string" },
+    "targetEntityId": { "type": "string" },
+    "quantityLiters": { "type": "number", "minimum": 0 },
+    "occurredAt": { "type": "string", "format": "date-time" },
+    "actorId": { "type": "string", "format": "uuid" },
+    "metadata": { "type": "object", "additionalProperties": true },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/audit-log.schema.json",
+  "title": "AuditLog",
+  "type": "object",
+  "required": ["id", "siteId", "actorId", "action", "entityType", "entityId", "occurredAt", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "siteId": { "type": "string", "format": "uuid" },
+    "actorId": { "type": "string", "format": "uuid" },
+    "action": { "type": "string" },
+    "entityType": { "type": "string" },
+    "entityId": { "type": "string" },
+    "before": { "type": "object", "additionalProperties": true },
+    "after": { "type": "object", "additionalProperties": true },
+    "occurredAt": { "type": "string", "format": "date-time" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

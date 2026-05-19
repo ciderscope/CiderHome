@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gestion Cuverie Cidricole Schemas",
+  "description": "Index documentaire des schemas JSON exposes par packages/shared/schemas.",
+  "schemas": [
+    "site.schema.json",
+    "user-profile.schema.json",
+    "tank.schema.json",
+    "lot.schema.json",
+    "harvest-receipt.schema.json",
+    "sub-lot-sample.schema.json",
+    "operation.schema.json",
+    "work-order.schema.json",
+    "input.schema.json",
+    "stock-item.schema.json",
+    "stock-movement.schema.json",
+    "analysis.schema.json",
+    "document-attachment.schema.json",
+    "transfer-order.schema.json",
+    "traceability-event.schema.json",
+    "sensor-reading.schema.json",
+    "alert-rule.schema.json",
+    "alert.schema.json",
+    "bottling-batch.schema.json",
+    "audit-log.schema.json"
+  ]
+}

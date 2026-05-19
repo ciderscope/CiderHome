@@ -1,0 +1,202 @@
+[
+  {
+    "id": "b0000001-0000-4000-8000-000000000001",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "receiptNumber": "REC-2026-001",
+    "parcel": "Parcelle demo 1",
+    "grapeVariety": "Douce Moen",
+    "supplier": "Domaine partenaire",
+    "weightKg": 6000,
+    "maturity": {
+      "sugarBrix": 12.5,
+      "ph": 3.35,
+      "sanitaryState": "watch"
+    },
+    "receivedAt": "2026-05-01T07:30:00.000Z",
+    "assignedTankId": "30000001-0000-4000-8000-000000000001",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000002-0000-4000-8000-000000000002",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "receiptNumber": "REC-2026-002",
+    "parcel": "Parcelle demo 2",
+    "grapeVariety": "Avrolles",
+    "supplier": "Domaine partenaire",
+    "weightKg": 6850,
+    "maturity": {
+      "sugarBrix": 13.5,
+      "ph": 3.45,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-02T07:30:00.000Z",
+    "assignedTankId": "30000002-0000-4000-8000-000000000002",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000003-0000-4000-8000-000000000003",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "receiptNumber": "REC-2026-003",
+    "parcel": "Parcelle demo 3",
+    "grapeVariety": "Guillevic",
+    "supplier": "Domaine partenaire",
+    "weightKg": 7700,
+    "maturity": {
+      "sugarBrix": 14.5,
+      "ph": 3.5500000000000003,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-03T07:30:00.000Z",
+    "assignedTankId": "30000003-0000-4000-8000-000000000003",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000004-0000-4000-8000-000000000004",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "receiptNumber": "REC-2026-004",
+    "parcel": "Parcelle demo 4",
+    "grapeVariety": "Chardonnay",
+    "supplier": "Domaine partenaire",
+    "weightKg": 8550,
+    "maturity": {
+      "sugarBrix": 15.5,
+      "ph": 3.35,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-04T07:30:00.000Z",
+    "assignedTankId": "30000004-0000-4000-8000-000000000004",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000005-0000-4000-8000-000000000005",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "receiptNumber": "REC-2026-005",
+    "parcel": "Parcelle demo 5",
+    "grapeVariety": "Douce Moen",
+    "supplier": "Domaine partenaire",
+    "weightKg": 9400,
+    "maturity": {
+      "sugarBrix": 12.5,
+      "ph": 3.45,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-05T07:30:00.000Z",
+    "assignedTankId": "30000005-0000-4000-8000-000000000005",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000006-0000-4000-8000-000000000006",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "receiptNumber": "REC-2026-006",
+    "parcel": "Parcelle demo 6",
+    "grapeVariety": "Avrolles",
+    "supplier": "Domaine partenaire",
+    "weightKg": 10250,
+    "maturity": {
+      "sugarBrix": 13.5,
+      "ph": 3.5500000000000003,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-06T07:30:00.000Z",
+    "assignedTankId": "30000006-0000-4000-8000-000000000006",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000007-0000-4000-8000-000000000007",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "receiptNumber": "REC-2026-007",
+    "parcel": "Parcelle demo 7",
+    "grapeVariety": "Guillevic",
+    "supplier": "Domaine partenaire",
+    "weightKg": 11100,
+    "maturity": {
+      "sugarBrix": 14.5,
+      "ph": 3.35,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-07T07:30:00.000Z",
+    "assignedTankId": "30000007-0000-4000-8000-000000000007",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000008-0000-4000-8000-000000000008",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "receiptNumber": "REC-2026-008",
+    "parcel": "Parcelle demo 8",
+    "grapeVariety": "Chardonnay",
+    "supplier": "Domaine partenaire",
+    "weightKg": 11950,
+    "maturity": {
+      "sugarBrix": 15.5,
+      "ph": 3.45,
+      "sanitaryState": "watch"
+    },
+    "receivedAt": "2026-05-08T07:30:00.000Z",
+    "assignedTankId": "30000008-0000-4000-8000-000000000008",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000009-0000-4000-8000-000000000009",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "receiptNumber": "REC-2026-009",
+    "parcel": "Parcelle demo 9",
+    "grapeVariety": "Douce Moen",
+    "supplier": "Domaine partenaire",
+    "weightKg": 12800,
+    "maturity": {
+      "sugarBrix": 12.5,
+      "ph": 3.5500000000000003,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-09T07:30:00.000Z",
+    "assignedTankId": "30000009-0000-4000-8000-000000000009",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "b0000010-0000-4000-8000-000000000010",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "receiptNumber": "REC-2026-010",
+    "parcel": "Parcelle demo 10",
+    "grapeVariety": "Avrolles",
+    "supplier": "Domaine partenaire",
+    "weightKg": 13650,
+    "maturity": {
+      "sugarBrix": 13.5,
+      "ph": 3.35,
+      "sanitaryState": "good"
+    },
+    "receivedAt": "2026-05-10T07:30:00.000Z",
+    "assignedTankId": "30000010-0000-4000-8000-000000000010",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

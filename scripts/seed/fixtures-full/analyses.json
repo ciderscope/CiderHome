@@ -1,0 +1,362 @@
+[
+  {
+    "id": "a0000001-0000-4000-8000-000000000001",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000001-0000-4000-8000-000000000001",
+    "sampleCode": "ECH-001",
+    "measuredAt": "2026-05-01T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.3,
+      "density": 1.01,
+      "so2Free": 18
+    },
+    "compliant": false,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000002-0000-4000-8000-000000000002",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000002-0000-4000-8000-000000000002",
+    "sampleCode": "ECH-002",
+    "measuredAt": "2026-05-02T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.4,
+      "density": 1.011,
+      "so2Free": 19
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000003-0000-4000-8000-000000000003",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000003-0000-4000-8000-000000000003",
+    "sampleCode": "ECH-003",
+    "measuredAt": "2026-05-03T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5,
+      "density": 1.012,
+      "so2Free": 20
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000004-0000-4000-8000-000000000004",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000004-0000-4000-8000-000000000004",
+    "sampleCode": "ECH-004",
+    "measuredAt": "2026-05-04T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5999999999999996,
+      "density": 1.013,
+      "so2Free": 21
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000005-0000-4000-8000-000000000005",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000005-0000-4000-8000-000000000005",
+    "sampleCode": "ECH-005",
+    "measuredAt": "2026-05-05T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.6999999999999997,
+      "density": 1.014,
+      "so2Free": 22
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000006-0000-4000-8000-000000000006",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000006-0000-4000-8000-000000000006",
+    "sampleCode": "ECH-006",
+    "measuredAt": "2026-05-06T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.8,
+      "density": 1.015,
+      "so2Free": 23
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000007-0000-4000-8000-000000000007",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000007-0000-4000-8000-000000000007",
+    "sampleCode": "ECH-007",
+    "measuredAt": "2026-05-07T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.3,
+      "density": 1.016,
+      "so2Free": 24
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000008-0000-4000-8000-000000000008",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000008-0000-4000-8000-000000000008",
+    "sampleCode": "ECH-008",
+    "measuredAt": "2026-05-08T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.4,
+      "density": 1.017,
+      "so2Free": 25
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000009-0000-4000-8000-000000000009",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000009-0000-4000-8000-000000000009",
+    "sampleCode": "ECH-009",
+    "measuredAt": "2026-05-09T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5,
+      "density": 1.01,
+      "so2Free": 26
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000010-0000-4000-8000-000000000010",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000010-0000-4000-8000-000000000010",
+    "sampleCode": "ECH-010",
+    "measuredAt": "2026-05-10T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5999999999999996,
+      "density": 1.011,
+      "so2Free": 27
+    },
+    "compliant": false,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000011-0000-4000-8000-000000000011",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "tankId": "30000011-0000-4000-8000-000000000011",
+    "sampleCode": "ECH-011",
+    "measuredAt": "2026-05-11T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.6999999999999997,
+      "density": 1.012,
+      "so2Free": 28
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000012-0000-4000-8000-000000000012",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "tankId": "30000012-0000-4000-8000-000000000012",
+    "sampleCode": "ECH-012",
+    "measuredAt": "2026-05-12T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.8,
+      "density": 1.013,
+      "so2Free": 29
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000013-0000-4000-8000-000000000013",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "tankId": "30000013-0000-4000-8000-000000000013",
+    "sampleCode": "ECH-013",
+    "measuredAt": "2026-05-13T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.3,
+      "density": 1.014,
+      "so2Free": 30
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000014-0000-4000-8000-000000000014",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "tankId": "30000014-0000-4000-8000-000000000014",
+    "sampleCode": "ECH-014",
+    "measuredAt": "2026-05-14T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.4,
+      "density": 1.015,
+      "so2Free": 31
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000015-0000-4000-8000-000000000015",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "tankId": "30000015-0000-4000-8000-000000000015",
+    "sampleCode": "ECH-015",
+    "measuredAt": "2026-05-15T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5,
+      "density": 1.016,
+      "so2Free": 32
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000016-0000-4000-8000-000000000016",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "tankId": "30000016-0000-4000-8000-000000000016",
+    "sampleCode": "ECH-016",
+    "measuredAt": "2026-05-16T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.5999999999999996,
+      "density": 1.017,
+      "so2Free": 33
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000017-0000-4000-8000-000000000017",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "tankId": "30000017-0000-4000-8000-000000000017",
+    "sampleCode": "ECH-017",
+    "measuredAt": "2026-05-17T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.6999999999999997,
+      "density": 1.01,
+      "so2Free": 34
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000018-0000-4000-8000-000000000018",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "tankId": "30000018-0000-4000-8000-000000000018",
+    "sampleCode": "ECH-018",
+    "measuredAt": "2026-05-18T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.8,
+      "density": 1.011,
+      "so2Free": 35
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000019-0000-4000-8000-000000000019",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "tankId": "30000019-0000-4000-8000-000000000019",
+    "sampleCode": "ECH-019",
+    "measuredAt": "2026-05-01T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.3,
+      "density": 1.012,
+      "so2Free": 36
+    },
+    "compliant": false,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "a0000020-0000-4000-8000-000000000020",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "tankId": "30000020-0000-4000-8000-000000000020",
+    "sampleCode": "ECH-020",
+    "measuredAt": "2026-05-02T11:00:00.000Z",
+    "analystId": "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+    "results": {
+      "ph": 3.4,
+      "density": 1.013,
+      "so2Free": 37
+    },
+    "compliant": true,
+    "comments": "Analyse demo",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

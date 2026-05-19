@@ -1,0 +1,18 @@
+[
+  {
+    "id": "13131313-1313-4131-8131-131313131313",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "lotId": "66666666-6666-4666-8666-666666666666",
+    "receiptNumber": "REC-2026-018",
+    "parcel": "Parcelle des Hauts Vergers",
+    "grapeVariety": "Douce Moen",
+    "supplier": "Domaine Keravel",
+    "weightKg": 12800,
+    "maturity": { "sugarBrix": 13.8, "ph": 3.42, "acidityGl": 4.6, "sanitaryState": "good" },
+    "receivedAt": "2026-05-17T07:45:00.000Z",
+    "assignedTankId": "33333333-3333-4333-8333-333333333333",
+    "documentIds": [],
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

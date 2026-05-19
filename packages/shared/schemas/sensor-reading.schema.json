@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/sensor-reading.schema.json",
+  "title": "SensorReading",
+  "type": "object",
+  "required": ["id", "siteId", "sensorId", "tankId", "measuredAt", "metrics", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "sensorId": { "type": "string", "minLength": 2 },
+    "tankId": { "type": "string", "format": "uuid" },
+    "measuredAt": { "type": "string", "format": "date-time" },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "temperatureC": { "type": "number" },
+        "density": { "type": "number" },
+        "ph": { "type": "number" },
+        "pressureBar": { "type": "number" },
+        "volumeLiters": { "type": "number", "minimum": 0 },
+        "co2Gpl": { "type": "number" },
+        "humidityPercent": { "type": "number" }
+      }
+    },
+    "rawPayload": { "type": "object", "additionalProperties": true },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

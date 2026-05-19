@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/alert.schema.json",
+  "title": "Alert",
+  "type": "object",
+  "required": ["id", "siteId", "entityType", "entityId", "severity", "message", "status", "triggeredAt", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "ruleId": { "type": "string", "format": "uuid" },
+    "entityType": { "enum": ["tank", "lot", "operation", "stock", "analysis"] },
+    "entityId": { "type": "string" },
+    "severity": { "enum": ["info", "warning", "critical"] },
+    "message": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["open", "acknowledged", "closed"] },
+    "triggeredAt": { "type": "string", "format": "date-time" },
+    "acknowledgedBy": { "type": "string", "format": "uuid" },
+    "closedAt": { "type": "string", "format": "date-time" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

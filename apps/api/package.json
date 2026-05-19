@@ -1,0 +1,27 @@
+{
+  "name": "@cuverie/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"api/**/*.ts\" \"src/**/*.ts\"",
+    "test": "jest --config jest.config.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "mqtt:bridge": "tsx src/services/mqttBridge.ts"
+  },
+  "dependencies": {
+    "@cuverie/shared": "*",
+    "@supabase/supabase-js": "^2.46.1",
+    "@vercel/node": "^3.2.27",
+    "ajv": "^8.17.1",
+    "mqtt": "^5.10.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
+

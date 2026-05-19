@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/sub-lot-sample.schema.json",
+  "title": "SubLotSample",
+  "type": "object",
+  "required": ["id", "siteId", "lotId", "code", "kind", "status", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "lotId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 2 },
+    "kind": { "enum": ["sous_lot", "echantillon"] },
+    "parentSubLotId": { "type": "string", "format": "uuid" },
+    "volumeLiters": { "type": "number", "minimum": 0 },
+    "sampleSizeMl": { "type": "number", "minimum": 0 },
+    "storageLocation": { "type": "string" },
+    "status": { "enum": ["active", "consumed", "archived"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}
+

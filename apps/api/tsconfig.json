@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node", "jest"],
+    "noEmit": true,
+    "paths": {
+      "@cuverie/shared": ["../../packages/shared/src/index.ts"],
+      "@cuverie/shared/*": ["../../packages/shared/src/*"]
+    }
+  },
+  "include": ["api/**/*.ts", "src/**/*.ts", "tests/**/*.ts"]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/tank.schema.json",
+  "title": "Tank",
+  "type": "object",
+  "required": [
+    "id",
+    "siteId",
+    "code",
+    "name",
+    "capacityLiters",
+    "currentVolumeLiters",
+    "status",
+    "material",
+    "zone",
+    "position",
+    "sensors",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "code": { "type": "string", "minLength": 1, "maxLength": 32 },
+    "name": { "type": "string", "minLength": 2 },
+    "capacityLiters": { "type": "number", "exclusiveMinimum": 0 },
+    "usefulCapacityLiters": { "type": "number", "exclusiveMinimum": 0 },
+    "currentVolumeLiters": { "type": "number", "minimum": 0 },
+    "temperatureC": { "type": "number" },
+    "temperatureMinC": { "type": "number" },
+    "temperatureMaxC": { "type": "number" },
+    "contentLotId": { "type": "string", "format": "uuid" },
+    "status": { "enum": ["available", "occupied", "cleaning", "maintenance", "blocked"] },
+    "state": { "enum": ["vide", "fermentation", "elevage", "nettoyage", "attente"] },
+    "material": { "enum": ["inox", "beton", "bois", "fibre", "amphore", "autre"] },
+    "zone": { "type": "string" },
+    "position": {
+      "type": "object",
+      "required": ["x", "y"],
+      "additionalProperties": false,
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "sensors": { "type": "array", "items": { "type": "string" } },
+    "qrCode": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

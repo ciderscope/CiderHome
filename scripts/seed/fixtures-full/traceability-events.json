@@ -1,0 +1,902 @@
+[
+  {
+    "id": "trace-operation-1",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000001-0000-4000-8000-000000000001",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000001-0000-4000-8000-000000000001",
+    "quantityLiters": 412,
+    "occurredAt": "2026-05-02T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-2",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000002-0000-4000-8000-000000000002",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000002-0000-4000-8000-000000000002",
+    "quantityLiters": 424,
+    "occurredAt": "2026-05-03T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-3",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000003-0000-4000-8000-000000000003",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000003-0000-4000-8000-000000000003",
+    "quantityLiters": 436,
+    "occurredAt": "2026-05-04T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-4",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000004-0000-4000-8000-000000000004",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000004-0000-4000-8000-000000000004",
+    "quantityLiters": 448,
+    "occurredAt": "2026-05-05T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-5",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000005-0000-4000-8000-000000000005",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000005-0000-4000-8000-000000000005",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-06T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-6",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000006-0000-4000-8000-000000000006",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000006-0000-4000-8000-000000000006",
+    "quantityLiters": 472,
+    "occurredAt": "2026-05-07T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-7",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000007-0000-4000-8000-000000000007",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000007-0000-4000-8000-000000000007",
+    "quantityLiters": 484,
+    "occurredAt": "2026-05-08T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-8",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000008-0000-4000-8000-000000000008",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000008-0000-4000-8000-000000000008",
+    "quantityLiters": 496,
+    "occurredAt": "2026-05-09T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-9",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000009-0000-4000-8000-000000000009",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000009-0000-4000-8000-000000000009",
+    "quantityLiters": 508,
+    "occurredAt": "2026-05-10T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-10",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000010-0000-4000-8000-000000000010",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000010-0000-4000-8000-000000000010",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-11T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-11",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000011-0000-4000-8000-000000000011",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000011-0000-4000-8000-000000000011",
+    "quantityLiters": 532,
+    "occurredAt": "2026-05-12T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-12",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000012-0000-4000-8000-000000000012",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000012-0000-4000-8000-000000000012",
+    "quantityLiters": 544,
+    "occurredAt": "2026-05-13T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-13",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000013-0000-4000-8000-000000000013",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000013-0000-4000-8000-000000000013",
+    "quantityLiters": 556,
+    "occurredAt": "2026-05-14T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-14",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000014-0000-4000-8000-000000000014",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000014-0000-4000-8000-000000000014",
+    "quantityLiters": 568,
+    "occurredAt": "2026-05-15T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-15",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000015-0000-4000-8000-000000000015",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000015-0000-4000-8000-000000000015",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-16T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-16",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000016-0000-4000-8000-000000000016",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000016-0000-4000-8000-000000000016",
+    "quantityLiters": 592,
+    "occurredAt": "2026-05-17T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-17",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000017-0000-4000-8000-000000000017",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000017-0000-4000-8000-000000000017",
+    "quantityLiters": 604,
+    "occurredAt": "2026-05-18T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-18",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000018-0000-4000-8000-000000000018",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000018-0000-4000-8000-000000000018",
+    "quantityLiters": 616,
+    "occurredAt": "2026-05-01T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-19",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000019-0000-4000-8000-000000000019",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000019-0000-4000-8000-000000000019",
+    "quantityLiters": 628,
+    "occurredAt": "2026-05-02T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-20",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000020-0000-4000-8000-000000000020",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000020-0000-4000-8000-000000000020",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-03T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-21",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000021-0000-4000-8000-000000000021",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000021-0000-4000-8000-000000000021",
+    "quantityLiters": 652,
+    "occurredAt": "2026-05-04T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-22",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000022-0000-4000-8000-000000000022",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000022-0000-4000-8000-000000000022",
+    "quantityLiters": 664,
+    "occurredAt": "2026-05-05T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-23",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000023-0000-4000-8000-000000000023",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000023-0000-4000-8000-000000000023",
+    "quantityLiters": 676,
+    "occurredAt": "2026-05-06T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-24",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000024-0000-4000-8000-000000000024",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000024-0000-4000-8000-000000000024",
+    "quantityLiters": 688,
+    "occurredAt": "2026-05-07T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-25",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000025-0000-4000-8000-000000000025",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000025-0000-4000-8000-000000000025",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-08T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-26",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000026-0000-4000-8000-000000000026",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000026-0000-4000-8000-000000000026",
+    "quantityLiters": 712,
+    "occurredAt": "2026-05-09T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-27",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000027-0000-4000-8000-000000000027",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000027-0000-4000-8000-000000000027",
+    "quantityLiters": 724,
+    "occurredAt": "2026-05-10T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-28",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000028-0000-4000-8000-000000000028",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000028-0000-4000-8000-000000000028",
+    "quantityLiters": 736,
+    "occurredAt": "2026-05-11T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-29",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000029-0000-4000-8000-000000000029",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000029-0000-4000-8000-000000000029",
+    "quantityLiters": 748,
+    "occurredAt": "2026-05-12T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-30",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000030-0000-4000-8000-000000000030",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000030-0000-4000-8000-000000000030",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-13T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-31",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000031-0000-4000-8000-000000000031",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000031-0000-4000-8000-000000000031",
+    "quantityLiters": 772,
+    "occurredAt": "2026-05-14T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-32",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000032-0000-4000-8000-000000000032",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000032-0000-4000-8000-000000000032",
+    "quantityLiters": 784,
+    "occurredAt": "2026-05-15T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-33",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000033-0000-4000-8000-000000000033",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000033-0000-4000-8000-000000000033",
+    "quantityLiters": 796,
+    "occurredAt": "2026-05-16T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-34",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000034-0000-4000-8000-000000000034",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000034-0000-4000-8000-000000000034",
+    "quantityLiters": 808,
+    "occurredAt": "2026-05-17T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-35",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000035-0000-4000-8000-000000000035",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000035-0000-4000-8000-000000000035",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-18T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-36",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000036-0000-4000-8000-000000000036",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000036-0000-4000-8000-000000000036",
+    "quantityLiters": 832,
+    "occurredAt": "2026-05-01T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-37",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000037-0000-4000-8000-000000000037",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000037-0000-4000-8000-000000000037",
+    "quantityLiters": 844,
+    "occurredAt": "2026-05-02T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-38",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000038-0000-4000-8000-000000000038",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000038-0000-4000-8000-000000000038",
+    "quantityLiters": 856,
+    "occurredAt": "2026-05-03T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-39",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000039-0000-4000-8000-000000000039",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000039-0000-4000-8000-000000000039",
+    "quantityLiters": 868,
+    "occurredAt": "2026-05-04T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-40",
+    "siteId": "22222222-2222-4222-8222-222222222222",
+    "type": "operation_recorded",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000040-0000-4000-8000-000000000040",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000040-0000-4000-8000-000000000040",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-05T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-41",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000001-0000-4000-8000-000000000001",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000041-0000-4000-8000-000000000041",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000001-0000-4000-8000-000000000001",
+    "quantityLiters": 892,
+    "occurredAt": "2026-05-06T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-42",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000002-0000-4000-8000-000000000002",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000042-0000-4000-8000-000000000042",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000002-0000-4000-8000-000000000002",
+    "quantityLiters": 904,
+    "occurredAt": "2026-05-07T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-43",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000003-0000-4000-8000-000000000003",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000043-0000-4000-8000-000000000043",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000003-0000-4000-8000-000000000003",
+    "quantityLiters": 916,
+    "occurredAt": "2026-05-08T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-44",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000004-0000-4000-8000-000000000004",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000044-0000-4000-8000-000000000044",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000004-0000-4000-8000-000000000004",
+    "quantityLiters": 928,
+    "occurredAt": "2026-05-09T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-45",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000005-0000-4000-8000-000000000005",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000045-0000-4000-8000-000000000045",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000005-0000-4000-8000-000000000005",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-10T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-46",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000006-0000-4000-8000-000000000006",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000046-0000-4000-8000-000000000046",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000006-0000-4000-8000-000000000006",
+    "quantityLiters": 952,
+    "occurredAt": "2026-05-11T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "remplissage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-47",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000007-0000-4000-8000-000000000007",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000047-0000-4000-8000-000000000047",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000007-0000-4000-8000-000000000007",
+    "quantityLiters": 964,
+    "occurredAt": "2026-05-12T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "prise_densite_temperature"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-48",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000008-0000-4000-8000-000000000008",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000048-0000-4000-8000-000000000048",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000008-0000-4000-8000-000000000008",
+    "quantityLiters": 976,
+    "occurredAt": "2026-05-13T09:00:00.000Z",
+    "actorId": "eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+    "metadata": {
+      "operationType": "soutirage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-49",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000009-0000-4000-8000-000000000009",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000049-0000-4000-8000-000000000049",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000009-0000-4000-8000-000000000009",
+    "quantityLiters": 988,
+    "occurredAt": "2026-05-14T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "nettoyage"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "trace-operation-50",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "type": "operation_recorded",
+    "lotId": "60000010-0000-4000-8000-000000000010",
+    "sourceEntityType": "operation",
+    "sourceEntityId": "40000050-0000-4000-8000-000000000050",
+    "targetEntityType": "tank",
+    "targetEntityId": "30000010-0000-4000-8000-000000000010",
+    "quantityLiters": 0,
+    "occurredAt": "2026-05-15T09:00:00.000Z",
+    "actorId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "metadata": {
+      "operationType": "reception"
+    },
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

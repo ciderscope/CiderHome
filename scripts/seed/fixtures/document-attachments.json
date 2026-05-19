@@ -1,0 +1,15 @@
+[
+  {
+    "id": "22222222-2222-4222-9222-222222222222",
+    "siteId": "11111111-1111-4111-8111-111111111111",
+    "entityType": "harvest_receipt",
+    "entityId": "13131313-1313-4131-8131-131313131313",
+    "filename": "bon-pesee-rec-2026-018.pdf",
+    "storagePath": "receipts/2026/bon-pesee-rec-2026-018.pdf",
+    "mimeType": "application/pdf",
+    "sizeBytes": 124000,
+    "uploadedBy": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "createdAt": "2026-05-18T09:00:00.000Z",
+    "updatedAt": "2026-05-18T09:00:00.000Z"
+  }
+]

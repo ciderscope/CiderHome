@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gestion-cuverie-cidricole.local/schemas/operation.schema.json",
+  "title": "Operation",
+  "type": "object",
+  "required": ["id", "siteId", "type", "operatorId", "startedAt", "createdAt", "updatedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "siteId": { "type": "string", "format": "uuid" },
+    "type": {
+      "enum": [
+        "reception",
+        "remplissage",
+        "vidange",
+        "pressurage",
+        "fermentation",
+        "assemblage",
+        "soutirage",
+        "transfert",
+        "debourbage",
+        "collage",
+        "filtration",
+        "oxygenation",
+        "ajout_produit",
+        "prise_densite_temperature",
+        "nettoyage",
+        "conditionnement",
+        "correction"
+      ]
+    },
+    "status": { "enum": ["draft", "assigned", "in_progress", "submitted", "validated", "rejected", "executed", "cancelled"] },
+    "lotId": { "type": "string", "format": "uuid" },
+    "subLotId": { "type": "string", "format": "uuid" },
+    "tankId": { "type": "string", "format": "uuid" },
+    "operatorId": { "type": "string", "format": "uuid" },
+    "assigneeId": { "type": "string", "format": "uuid" },
+    "plannedAt": { "type": "string", "format": "date-time" },
+    "startedAt": { "type": "string", "format": "date-time" },
+    "endedAt": { "type": "string", "format": "date-time" },
+    "validatedBy": { "type": "string", "format": "uuid" },
+    "validatedAt": { "type": "string", "format": "date-time" },
+    "volumeDeltaLiters": { "type": "number" },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "required", "checked"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "required": { "type": "boolean" },
+          "checked": { "type": "boolean" }
+        }
+      }
+    },
+    "notes": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}
